@@ -1,0 +1,243 @@
+
+body{
+    background-color:  rgb(1, 50, 66);
+   box-sizing: border-box;
+   overflow-x: hidden;
+}
+.logo{
+    margin-left: 6.25rem;
+    margin-top: 1.875rem;
+}
+.text{
+    color: rgb(49, 245, 199);
+    font-family: 'Sen', sans-serif;
+    font-size: 7rem;
+    margin-left: 6.25rem;
+    
+} 
+.first{
+    position: relative;
+    
+}
+
+.pic{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin-left: 3rem;
+    height: 80px;
+    width: 90px;
+    bottom: 10px;
+}
+.main{
+    position: absolute;
+    top: 0;
+    left: 650px;
+    z-index: -1;
+    
+    
+}
+.img1{
+    height: 90px;
+    width: 100px;
+    position: relative;
+    bottom: 40px;
+}
+.img2{
+    height: 120px;
+    width: 130px;
+    position: relative;
+    bottom: 100px;
+}
+
+.text1{
+    color: rgb(49, 245, 199);
+    font-family: 'Sen', sans-serif;
+    font-size: 7rem;
+    margin-left: 6.25rem;
+}
+.third{
+    position: relative;
+   bottom: 90px;
+}
+.img3{
+   position: absolute;
+   top: 70px;
+   width: 100px;
+   height: 90px;
+   left: 530px;
+   z-index: -1;
+}
+.img4{
+   position: absolute;
+   top: 70px;
+   width: 90px;
+   height: 80px;
+   left: 830px;
+   z-index: -1;
+}
+.social{
+    position: relative;
+    bottom: 90px;
+    font-family: 'Inter', sans-serif;
+
+}
+.line{
+    margin-left: 6.25rem;
+    color: aliceblue; 
+    font-size: 20px;   
+    
+}
+input[type="button"]{
+    border: 2px solid  rgb(49, 245, 199);
+    margin-left: 6.25rem;
+    background-color:  rgb(49, 245, 199);
+    padding: 18px;
+    color: black;
+    font-size: 18px;
+}
+input[type="button"]:hover{
+    background-color: black;
+    color: rgb(49, 245, 199);
+}
+.last{
+    position: relative;
+    margin-left: 6.25rem;
+    bottom: 50px;
+    
+}
+.last p{
+    position: absolute;
+    bottom: 5px;
+    margin-left: 3.8rem;
+    color: white;
+
+}
+.man{
+    position: relative;
+    left: 800px;
+    bottom: 200px;
+}
+
+/* ||small */
+@media screen and (min-width: 22.5rem) and (max-width:46.875rem) {
+  .logo{
+    margin-left: 1rem;
+    margin-bottom: 50px;
+  }
+  .text{
+    margin-left: 1rem;
+    font-size: 3rem;
+    
+  }
+   .pic{
+    position: absolute;
+    top: -70px;
+    
+   }
+   .img2{
+    position: absolute;
+    right: 400px;
+    top: -100px;
+   }
+   .text1{
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-top: 90px;
+   }
+   .line{
+  margin-left: 1rem;
+   }
+   input[type="button"]{
+    margin-left: 1rem;
+   }
+   .img3{
+    position: absolute;
+    right: 100px;
+   }
+   .last{
+    margin-left: 1rem;
+   }
+}
+/* ||medium */
+@media  screen and (min-width: 47.5rem) and (max-width:54.375rem) {
+    
+    .logo{
+        margin-left: 2rem;
+        margin-bottom: 50px;
+    }
+    .text{
+        margin-left: 2rem;
+    }
+    .first{
+        padding-top: 50px;
+    } 
+    
+    .pic{
+        position: absolute;
+        top: -30px;
+       
+       width: 140px;
+       height: 140px;
+    }
+    .main{
+        position: absolute;
+        bottom: 0;
+        top: 80px;
+        left: 600px;
+    }
+   .img1{
+    position: relative;
+    bottom: 0;
+    right: 90px;
+    width: 120px;
+    height: 110px;
+   }
+   .img2{
+    position: relative;
+    bottom: 250px;
+    width: 150px;
+    height: 140px;
+   }
+   .text1{
+    margin-left: 1.5rem;
+    
+   }
+   .third{
+    position: relative;
+    bottom: 50px;
+   }
+   .img3{
+    position: absolute;
+    right: 40px;
+    
+    }
+    .img4{
+        position: absolute;
+        left: 650px;
+        top: -100px;
+        width: 150px;
+        height: 140px;
+    }
+    .line{
+        margin-left: 2rem;
+    }
+    input[type="button"]{
+    margin-left: 2rem;
+    }
+    .last{
+        margin-left: 2rem;
+    }
+    .man{
+     position: relative;
+    left: 480px;
+    }
+}
+/* large*/
+@media screen (min-width: 62rem) {
+    body{
+        background-color: rgb(1, 50, 66);
+        
+    }
+
+}
