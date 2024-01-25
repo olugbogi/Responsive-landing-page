@@ -121,7 +121,10 @@ input[type="button"]:hover{
 
 /* ||small */
 @media screen and (min-width: 22.5rem) and (max-width:46.875rem) {
-  .logo{
+  body{
+    overflow-x: hidden;
+  }
+    .logo{
     margin-left: 1rem;
     margin-bottom: 50px;
   }
@@ -161,7 +164,9 @@ input[type="button"]:hover{
 }
 /* ||medium */
 @media  screen and (min-width: 47.5rem) and (max-width:54.375rem) {
-    
+    body{
+        overflow-x: hidden;
+    }
     .logo{
         margin-left: 2rem;
         margin-bottom: 50px;
@@ -232,12 +237,4 @@ input[type="button"]:hover{
      position: relative;
     left: 480px;
     }
-}
-/* large*/
-@media screen (min-width: 62rem) {
-    body{
-        background-color: rgb(1, 50, 66);
-        
-    }
-
 }
