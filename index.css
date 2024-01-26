@@ -122,7 +122,7 @@ input[type="button"]:hover{
 }
 
 /* ||small */
-@media screen and (min-width: 22.5rem) and (max-width:46.875rem) {
+@media screen and (min-width: 360px) and (max-width:750px) {
   body{
     overflow-x: hidden;
     box-sizing: border-box;
@@ -176,7 +176,7 @@ input[type="button"]:hover{
    }
 }
 /* ||medium */
-@media  screen and (min-width: 47.5rem) and (max-width:54.375rem) {
+@media  screen and (min-width: 760px) and (max-width:870px) {
     body{
         overflow-x: hidden;
         box-sizing: border-box;
