@@ -3,6 +3,8 @@ body{
     background-color:  rgb(1, 50, 66);
    box-sizing: border-box;
    overflow-x: hidden;
+   margin: 0;
+   padding: 0;
 }
 .logo{
     margin-left: 6.25rem;
@@ -123,6 +125,7 @@ input[type="button"]:hover{
 @media screen and (min-width: 22.5rem) and (max-width:46.875rem) {
   body{
     overflow-x: hidden;
+    box-sizing: border-box;
   }
     .logo{
     margin-left: 1rem;
@@ -176,7 +179,7 @@ input[type="button"]:hover{
 @media  screen and (min-width: 47.5rem) and (max-width:54.375rem) {
     body{
         overflow-x: hidden;
-        
+        box-sizing: border-box;
     }
     .logo{
         margin-left: 2rem;
